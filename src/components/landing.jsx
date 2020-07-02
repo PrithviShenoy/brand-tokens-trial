@@ -41,19 +41,19 @@ class Referral extends Component {
           </div>
         </div>
         <div className="row ">
-          <div className="col-4  themed-grid-col">Referral Link</div>
-          <div className="col-2 themed-grid-col">Clicks</div>
-          <div className="col-2 themed-grid-col">SignUps</div>
-          <div className="col-2 themed-grid-col">Tokens</div>
-          <div className="col-2 themed-grid-col">Options</div>
+          <div className="col-4  themed-grid-col">REFERRAL LINK</div>
+          <div className="col-2 themed-grid-col">CLICKS</div>
+          <div className="col-2 themed-grid-col">SIGNUPS</div>
+          <div className="col-2 themed-grid-col">TOKENS</div>
+          <div className="col-2 themed-grid-col">OPTIONS</div>
         </div>
-        <div className="card">
+        <div className="card m-2">
           <div className="row">
             <div className="col-4  themed-grid-col">
               <div className="card-body">
                 <h5 className="card-title"> </h5>
                 <h6 className="card-subtitle mb-2 ">
-                  brandtokens.io/4Ew21Ast0x{" "}
+                  brandtokens.io/4Ew21Ast0x
                 </h6>
                 <p className="card-text">
                   Share this link to introduce your followers to our project.
@@ -79,6 +79,85 @@ class Referral extends Component {
             </div>
           </div>
         </div>
+        <div className="card m-2">
+          <div className="row">
+            <div className="col-4  themed-grid-col">
+              <div className="card-body">
+                <h5 className="card-title"> </h5>
+                <h6 className="card-subtitle mb-2 ">
+                  brandtokens.io/4Ew21Ast0x
+                </h6>
+                <p className="card-text">
+                  Share this link to invite your friends to our voting.
+                </p>
+              </div>
+            </div>
+            <div className="col-2 themed-grid-col">
+              <br></br>1,2004,20
+            </div>
+            <div className="col-2 themed-grid-col">
+              <br></br>320,436
+            </div>
+            <div className="col-2 themed-grid-col">
+              <br></br>22,838
+            </div>
+            <div className="col-2 themed-grid-col">
+              <br></br>
+              <button onClick={this.handleDelete} className="btn btn-sm m-1">
+                D
+              </button>
+              <button className="btn btn-sm m-1">V</button>
+              <button className="btn btn-sm m-1">O</button>
+            </div>
+          </div>
+        </div>
+        <div className="card m-2">
+          <div className="row">
+            <div className="col-4  themed-grid-col">
+              <div className="card-body">
+                <h5 className="card-title"> </h5>
+                <h6 className="card-subtitle mb-2 ">
+                  brandtokens.io/4Ew21Ast0x{" "}
+                </h6>
+                <p className="card-text">
+                  Share this link with potential investors to present them with
+                  potential profits from buying our tokens .
+                </p>
+              </div>
+            </div>
+            <div className="col-2 themed-grid-col">
+              <br></br>2,040,180
+            </div>
+            <div className="col-2 themed-grid-col">
+              <br></br>631,084
+            </div>
+            <div className="col-2 themed-grid-col">
+              <br></br>345,458
+            </div>
+            <div className="col-2 themed-grid-col">
+              <br></br>
+              <button onClick={this.handleDelete} className="btn btn-sm m-1">
+                D
+              </button>
+              <button className="btn btn-sm m-1">V</button>
+              <button className="btn btn-sm m-1">O</button>
+            </div>
+          </div>
+        </div>
+        <footer className="footer">
+          <div className="container">
+            <span className="text-muted">
+              <div className="row m-3">
+                <div className="col-2  themed-grid-col">PRODUCTS</div>
+                <div className="col-2 themed-grid-col">SOLUTIONS</div>
+                <div className="col-2 themed-grid-col">CLIENTS</div>
+                <div className="col-2 themed-grid-col">COMPANY</div>
+                <div className="col-2 themed-grid-col">BLOG</div>
+                <div className="col-2 themed-grid-col">CONTACT US</div>
+              </div>
+            </span>
+          </div>
+        </footer>
       </div>
     );
   }
